@@ -1,0 +1,35 @@
+{
+  "name": "perfecto-reporting",
+  "version": "2.5.1",
+  "description": "Perfecto reporting SDK",
+  "main": "index.js",
+  "scripts": {
+    "test": "node --harmony test/perfecto-spec.js",
+    "lint": "node node_modules/eslint/bin/eslint.js --max-warnings 0 ."
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:PerfectoCode/reporting-node-sdk.git"
+  },
+  "keywords": [
+    "perfecto",
+    "perfectomobile",
+    "digital",
+    "quality",
+    "reporting"
+  ],
+  "author": "Perfecto <perfecto-sdk-js@perfectomobile.com> (https://www.perfectomobile.com/)",
+  "license": "SEE LICENSE IN <LICENSE.txt>",
+  "bugs": {
+    "url": "https://github.com/PerfectoCode/reporting-node-sdk/issues"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^4.12.0",
+    "eslint-config-airbnb": "^16.1.0",
+    "eslint-plugin-jsx-a11y": "^6.0.2",
+    "eslint-plugin-react": "^7.5.1",
+    "eslint-plugin-import": "^2.8.0",
+    "selenium-webdriver": "^4.0.0-alpha.1"
+  }
+}
