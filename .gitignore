@@ -2,3 +2,4 @@ node_modules
 test/mcmAuthentication.json
 automation
 tag.properties
+*.iml
